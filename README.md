@@ -6,8 +6,8 @@
   * MyServlet.java - изпълняващ ролятя на reverse proxy 
   * web.xml
   * Home.html - началната страница на приложението
-  * votebackend.php - backend сървъра
-  * votebackend_eddited.php
+  * votebackend.php - backend сървър с уязвимост
+  * votebackend_eddited.php - с премахната уязвимост
 
 **Примерни url за тестване на уязвимостта:**<br>
 http://localhost:8080/Project/voting?vote=Red&vote=45454<br>

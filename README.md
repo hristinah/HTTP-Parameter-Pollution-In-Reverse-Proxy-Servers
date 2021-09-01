@@ -1,12 +1,13 @@
 # Атаки с двойно подадени параметри при обратни прокси сървъри
 
 **Съдържание:**
-Реферат на темата и прост пример за тестване на уязвимостта:
-* MyServlet.java - изпълняващ ролятя на reverse proxy 
-* web.xml
-* Home.html - началната страница на приложението
-* votebackend.php - backend сървъра
-* votebackend_eddited.php
+* Реферат на темата 
+* Прост пример за тестване на уязвимостта: 
+  * MyServlet.java - изпълняващ ролятя на reverse proxy 
+  * web.xml
+  * Home.html - началната страница на приложението
+  * votebackend.php - backend сървъра
+  * votebackend_eddited.php
 
 **Примерни url за тестване на уязвимостта:**<br>
 http://localhost:8080/Project/voting?vote=Red&vote=45454<br>
